@@ -53,10 +53,12 @@ table {
 
 .CSS_Grid_Blog_Posts{
 	display: grid;
+	grid-template-columns: 30vw 30vw 30vw;
 }
 
 .CSS_Grid_Blog_Post{
 	width: 400px;
+	border: 0.1px dotted black;
 }
 
 .CSS_Grid_Blog_Image{
@@ -64,6 +66,7 @@ table {
     height: 200px;
     object-fit: cover;
 	padding: 10px;
+	border: 0.1px dotted black;
 }
 
 .CSS_Grid_Blog_Post_Title{
@@ -77,9 +80,11 @@ table {
 	max-width: 400px;
 	margin: 10px;
 	display: flex;
+	border: 0.1px dotted black;
 }
 
 .CSS_Grid_Blog_Post_Summary{
 	padding: 10px;
 	width: 400px;
+	border: 0.1px dotted black;
 }
