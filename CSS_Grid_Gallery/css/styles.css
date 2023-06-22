@@ -50,3 +50,24 @@ table {
 	font-weight: bold;
 	padding: 1rem;
 }
+
+
+
+
+.CSS_Grid_Gallery{
+	display: grid;
+	grid-template-areas:
+    'card-1 card-2'
+    'card-3 card-4';
+	justify-content: center;
+	align-items: center;
+	column-gap: 10px;
+	row-gap: 10px;
+	margin: 10px;
+}
+
+.CSS_Gallery_Image{
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+}
